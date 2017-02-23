@@ -1,8 +1,9 @@
 body {
     margin: 0;
+    font-family: Arial;
 }
-header {
-    background-color : blueviolet;
+header, footer {
+    background-color : darkviolet;
     color: white;
     padding: 50px;
 }
@@ -14,20 +15,30 @@ header a {
     padding: 10px 10px 10px 10px;
 }
 
-section {
-    border : 4px blueviolet solid;
+main > section {
+    border : 4px darkviolet solid;
     margin-left : 5px;
     margin-right: 5px;
     margin-top: 5px;
+    padding: 20px 20px 20px 20px;
 }
-#nav {
-    float: right;
-    display: inline-block;
-    width:
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
 }
 #body {
-
     width: 75%;
-    display: inline-block;
-    margin-left: auto;
+}
+
+main{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
 }
