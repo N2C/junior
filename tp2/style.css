@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+header {
+    background-color : blueviolet;
+    color: white;
+    padding: 50px;
+}
+
+header a {
+    border-radius: 5px;
+    margin-right:10px;
+    border: 2px white solid;
+    padding: 10px 10px 10px 10px;
+}
+
+section {
+    border : 4px blueviolet solid;
+    margin-left : 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#nav {
+    float: right;
+    display: inline-block;
+    width:
+}
+#body {
+
+    width: 75%;
+    display: inline-block;
+    margin-left: auto;
+}
